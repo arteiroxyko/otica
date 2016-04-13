@@ -1,0 +1,86 @@
+.calendar {
+    font-family: Arial, Verdana, Sans-serif;
+    width: 0%;
+    min-width: 420px;
+    border-collapse: collapse;
+}
+
+.calendar tbody tr:first-child th {
+    color: #505050;
+    margin: 0 0 10px 0;
+    
+}
+
+.day_header {
+    font-weight: normal;
+    text-align: center;
+    color: #757575;
+    font-size: 10px;
+}
+
+.calendar td {
+    width: 14%; /* Force all cells to be about the same width regardless of content */
+    border:1px solid #CCC;
+    height: 37px;
+    font-size: 14px;
+    padding: 0;
+    text-align: center;
+    
+    
+}
+
+.calendar td:hover {
+    background: #DFDFDF;
+    
+}
+
+.day_listing {
+
+    display: block;
+    font-size: 14px;
+    color: #2C2C2C;
+    padding: 5x 5px 10px 0;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+div.today {
+
+    display: block;
+    font-size: 14px;
+    color: #2C2C2C;
+    padding: 10px 5px 10px 0;
+    text-align: center;
+    font-weight: bold;
+    
+} 
+.day_listing a  {
+    text-decoration: none;
+    color: #003399;
+    
+}
+.today a  {
+    text-decoration: none;
+    color: #003399;
+    
+}
+
+.today a:hover  {
+    text-decoration: none;
+    color: red;
+    
+}
+
+.day_listing a:hover  {
+    text-decoration: none;
+    color: red;
+    
+}
+.today  {
+    background: #DFDFDF; 
+    
+}
+
+
