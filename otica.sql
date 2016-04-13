@@ -399,8 +399,8 @@ CREATE TABLE `usuario` (
 
 INSERT INTO `usuario` (`id`, `nome`, `login`, `senha`, `lembrete_senha`, `email`, `id_nivel`) VALUES
 (1, 'admin', 'admin', 'admin', 'admin', 'admin@gmail.com', 1),
-(2, 'atendente', 'atendente', 'atendente', 'atendente', '', 3),
-(3, 'admin', 'admin1', 'admin', 'admin', 'admin@gmail.com', 2);
+(2, 'atendente', 'atendente', 'atendente', 'atendente', 'atendente@gmail.com', 2),
+(3, 'Oftalmologista', 'oftalmologista', 'admin', 'medico', 'oftalmologistan@gmail.com', 3);
 
 -- --------------------------------------------------------
 
